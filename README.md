@@ -23,10 +23,10 @@ This project builds upon the PSPNet implementation by [Hengshuang Zhao](https://
 We acknowledge the creators of the water hyacinth dataset used in this project. Details can be found in the dataset documentation.
 References:
 PSPNet Paper: [Original Paper](https://arxiv.org/abs/1612.01105)
-Water Hyacinth Dataset: [Link to the dataset]
+Water Hyacinth Dataset: [Dataset](https://github.com/tadele-melese/PSPNet_semantic_segmentation/dataset)
 Contributing:
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 License:
-This project is licensed under the (https://opensource.org/license/mit) License - see the LICENSE file for details.
+This project is licensed under the [MIT](https://opensource.org/license/mit) License - see the LICENSE file for details.
 
