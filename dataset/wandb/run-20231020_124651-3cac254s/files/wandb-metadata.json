@@ -1,0 +1,17 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-10-20T03:46:52.391586",
+    "startedAt": "2023-10-20T03:46:51.514783",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "c:\\Users\\TADELE\\Documents\\Data from Bis\\dataset\\Full_PSPNet_Model.py",
+    "host": "DESKTOP-F67NAN0",
+    "username": "TADELE",
+    "executable": "c:\\Users\\TADELE\\.conda\\envs\\PSPnet_GPU\\python.exe"
+}

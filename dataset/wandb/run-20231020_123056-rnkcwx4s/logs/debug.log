@@ -1,0 +1,61 @@
+2023-10-20 12:30:56,399 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Configure stats pid to 10560
+2023-10-20 12:30:56,399 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Loading settings from C:\Users\TADELE\.config\wandb\settings
+2023-10-20 12:30:56,399 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Loading settings from c:\Users\TADELE\Documents\Data from Bis\dataset\wandb\settings
+2023-10-20 12:30:56,399 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-10-20 12:30:56,399 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'Full_PSPNet_Model.py', 'program': 'c:\\Users\\TADELE\\Documents\\Data from Bis\\dataset\\Full_PSPNet_Model.py'}
+2023-10-20 12:30:56,400 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-10-20 12:30:56,400 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-10-20 12:30:56,400 INFO    MainThread:10560 [wandb_init.py:_log_setup():476] Logging user logs to c:\Users\TADELE\Documents\Data from Bis\dataset\wandb\run-20231020_123056-rnkcwx4s\logs\debug.log
+2023-10-20 12:30:56,400 INFO    MainThread:10560 [wandb_init.py:_log_setup():477] Logging internal logs to c:\Users\TADELE\Documents\Data from Bis\dataset\wandb\run-20231020_123056-rnkcwx4s\logs\debug-internal.log
+2023-10-20 12:30:56,400 INFO    MainThread:10560 [wandb_init.py:init():516] calling init triggers
+2023-10-20 12:30:56,400 INFO    MainThread:10560 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'epochs': 3}
+2023-10-20 12:30:56,401 INFO    MainThread:10560 [wandb_init.py:init():535] re-initializing run, found existing run on stack: t666deqh
+2023-10-20 12:30:56,402 INFO    MainThread:10560 [wandb_run.py:_finish():1746] finishing run water-hyacinth-research-team/uncategorized/t666deqh
+2023-10-20 12:30:56,403 INFO    MainThread:10560 [jupyter.py:save_history():448] not saving jupyter history
+2023-10-20 12:30:56,403 INFO    MainThread:10560 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-10-20 12:30:56,403 INFO    MainThread:10560 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-10-20 12:30:56,403 INFO    MainThread:10560 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-10-20 12:30:56,403 INFO    MainThread:10560 [wandb_run.py:_restore():1932] restore
+2023-10-20 12:30:56,403 INFO    MainThread:10560 [wandb_run.py:_restore():1938] restore done
+2023-10-20 12:31:02,443 INFO    MainThread:10560 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-10-20 12:31:02,444 INFO    MainThread:10560 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-10-20 12:31:02,457 INFO    MainThread:10560 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-10-20 12:31:02,472 INFO    MainThread:10560 [wandb_init.py:init():569] starting backend
+2023-10-20 12:31:02,473 INFO    MainThread:10560 [wandb_init.py:init():573] setting up manager
+2023-10-20 12:31:02,500 INFO    MainThread:10560 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2023-10-20 12:31:02,505 INFO    MainThread:10560 [wandb_init.py:init():580] backend started and connected
+2023-10-20 12:31:02,521 INFO    MainThread:10560 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2023-10-20 12:31:02,521 INFO    MainThread:10560 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-20 12:31:02,521 INFO    MainThread:10560 [wandb_init.py:init():658] updated telemetry
+2023-10-20 12:31:02,523 INFO    MainThread:10560 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-10-20 12:31:04,059 INFO    MainThread:10560 [wandb_run.py:_on_init():2000] communicating current version
+2023-10-20 12:31:04,168 INFO    MainThread:10560 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.15.12 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-10-20 12:31:04,168 INFO    MainThread:10560 [wandb_init.py:init():728] starting run threads in backend
+2023-10-20 12:31:04,209 INFO    MainThread:10560 [wandb_run.py:_console_start():1980] atexit reg
+2023-10-20 12:31:04,209 INFO    MainThread:10560 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-10-20 12:31:04,209 INFO    MainThread:10560 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-10-20 12:31:04,209 INFO    MainThread:10560 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-10-20 12:31:04,210 INFO    MainThread:10560 [wandb_init.py:init():765] run started, returning control to user process
+2023-10-20 12:32:30,164 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Configure stats pid to 10560
+2023-10-20 12:32:30,164 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Loading settings from C:\Users\TADELE\.config\wandb\settings
+2023-10-20 12:32:30,164 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Loading settings from c:\Users\TADELE\Documents\Data from Bis\dataset\wandb\settings
+2023-10-20 12:32:30,164 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-10-20 12:32:30,164 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'Full_PSPNet_Model.py', 'program': 'c:\\Users\\TADELE\\Documents\\Data from Bis\\dataset\\Full_PSPNet_Model.py'}
+2023-10-20 12:32:30,165 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-10-20 12:32:30,165 INFO    MainThread:10560 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-10-20 12:32:30,166 INFO    MainThread:10560 [wandb_init.py:_log_setup():476] Logging user logs to c:\Users\TADELE\Documents\Data from Bis\dataset\wandb\run-20231020_123230-25w8buyc\logs\debug.log
+2023-10-20 12:32:30,166 INFO    MainThread:10560 [wandb_init.py:_log_setup():477] Logging internal logs to c:\Users\TADELE\Documents\Data from Bis\dataset\wandb\run-20231020_123230-25w8buyc\logs\debug-internal.log
+2023-10-20 12:32:30,166 INFO    MainThread:10560 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000023ADAAF8880>
+2023-10-20 12:32:30,166 INFO    MainThread:10560 [wandb_init.py:init():516] calling init triggers
+2023-10-20 12:32:30,166 INFO    MainThread:10560 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'epochs': 3}
+2023-10-20 12:32:30,166 INFO    MainThread:10560 [wandb_init.py:init():535] re-initializing run, found existing run on stack: rnkcwx4s
+2023-10-20 12:32:30,169 INFO    MainThread:10560 [wandb_run.py:_finish():1746] finishing run water-hyacinth-research-team/uncategorized/rnkcwx4s
+2023-10-20 12:32:30,169 INFO    MainThread:10560 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2023-10-20 12:32:30,169 INFO    MainThread:10560 [wandb_run.py:_restore():1932] restore
+2023-10-20 12:32:30,169 INFO    MainThread:10560 [wandb_run.py:_restore():1938] restore done
+2023-10-20 12:32:35,895 INFO    MainThread:10560 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-10-20 12:32:35,895 INFO    MainThread:10560 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-10-20 12:32:35,908 INFO    MainThread:10560 [wandb_run.py:_footer_sync_info():3333] logging synced files
