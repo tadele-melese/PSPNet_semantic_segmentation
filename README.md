@@ -19,7 +19,7 @@ Evaluation: Evaluate the model's performance using standard evaluation metrics s
 - PyTorch (>=1.6)
 - torchvision (>=0.7)
 ## Acknowledgments:
-This project builds upon the PSPNet implementation by [Hengshuang Zhao] (https://hszhao.github.io/projects/pspnet/index.html).
+This project builds upon the PSPNet implementation by [Hengshuang Zhao](https://hszhao.github.io/projects/pspnet/index.html).
 We acknowledge the creators of the water hyacinth dataset used in this project. Details can be found in the dataset documentation.
 References:
 PSPNet Paper: [Original Paper](https://arxiv.org/abs/1612.01105)
