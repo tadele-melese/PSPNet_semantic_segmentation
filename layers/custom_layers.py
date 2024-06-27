@@ -26,17 +26,17 @@ class FeatureMap_convolution(nn.Module):
         '''構成するネットワークを用意'''
         super(FeatureMap_convolution, self).__init__()
 
-        # 畳み込み層1
+        # 畳み込み層1 / Convolutional Layer 1
         in_channels, out_channels, kernel_size, stride, padding, dilation, bias = 3, 64, 3, 2, 1, 1, False
         self.cbnr_1 = conv2DBatchNormRelu(
             in_channels, out_channels, kernel_size, stride, padding, dilation, bias)
 
-        # 畳み込み層2
+        # 畳み込み層2 / Convolutional Layer 2
         in_channels, out_channels, kernel_size, stride, padding, dilation, bias = 64, 64, 3, 1, 1, 1, False
         self.cbnr_2 = conv2DBatchNormRelu(
             in_channels, out_channels, kernel_size, stride, padding, dilation, bias)
 
-        # 畳み込み層3
+        # 畳み込み層3 / Convolutional Layer 3
         in_channels, out_channels, kernel_size, stride, padding, dilation, bias = 64, 128, 3, 1, 1, 1, False
         self.cbnr_3 = conv2DBatchNormRelu(
             in_channels, out_channels, kernel_size, stride, padding, dilation, bias)
